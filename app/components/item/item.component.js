@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('test.components')
+        .module('item.component', [])
         .component('item', {
             bindings: {
                 item: '=set',

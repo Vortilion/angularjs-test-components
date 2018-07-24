@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('test.components')
+        .module('item-list.component', [])
         .component('itemList', {
             bindings: {
                 title: '@',

@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('test.components')
+        .module('item-list-container.component', [])
         .component('itemListContainer', {
             controller: 'ItemListContainerController',
             controllerAs: 'ctrl',
