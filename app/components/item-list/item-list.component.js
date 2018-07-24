@@ -11,6 +11,6 @@
             },
             controller: function() {},
             controllerAs: 'ctrl',
-            templateUrl: 'components/item-list/item-list.html'
+            templateUrl: 'components/item-list/item-list.component.html'
         });
 })();

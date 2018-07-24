@@ -6,6 +6,6 @@
         .component('itemListContainer', {
             controller: 'ItemListContainerController',
             controllerAs: 'ctrl',
-            templateUrl: 'components/item-list-container/item-list-container.html'
+            templateUrl: 'components/item-list-container/item-list-container.component.html'
         });
 })();
