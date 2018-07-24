@@ -1,0 +1,35 @@
+<doctype html ng-app="test.components">
+    <head>
+        <meta charset="utf-8">
+        <title>Test Components AngularJS</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="content" ng-controller="AppController as appCtrl">
+            <style>
+                ul {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                ul li {
+                    list-style: none;
+                }
+                .main {
+                    padding: 10%;
+                    width: 80%;
+                }
+            </style>
+            <item-list-container></item-list-container>
+        </div>
+
+        <footer>
+            <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.js"></script>
+            <script src="app.module.js"></script>
+            <script src="app.controller.js"></script>
+            <script src="components/item/item.component.js"></script>
+            <script src="components/item-list/item-list.component.js"></script>
+            <script src="components/item-list-container/item-list-container.controller.js"></script>
+            <script src="components/item-list-container/item-list-container.component.js"></script>
+        </footer>
+    </body>
+</html>
